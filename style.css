@@ -1,0 +1,174 @@
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    /* color: aqua; */
+    background-color: rgb(245, 249, 255);
+    height: 150px;
+    margin: -10px -10px 0px -10px
+}
+
+header>div, div>div {
+    /* border: solid black; */
+}
+
+div>table {
+    width: 300px;
+    padding-left: 100px;
+}
+
+div>table tr>td {
+    padding-top: 20px;
+}
+
+.top_header {
+    height: 40%;
+    background-color: rgb(98, 0, 255);
+}
+
+.bottom_header {
+    height: fit-content;
+    background-color: rgb(245, 249, 255);
+}
+
+.myButton {
+    border-radius: 50px;
+    background: linear-gradient(to bottom, rgb(0, 151, 206) 0%, rgb(255, 255, 255) 100%);
+}
+
+.myButton:hover {
+    background: #1C6EA4;
+}
+
+.myButton:active {
+    background: rgb(31, 135, 204);
+}
+
+header>div>span>img {
+    margin: 3px;
+    float: left;
+    padding: 10px;
+    padding-left: 100px;
+    width: 15%;
+    min-width: 200px;
+}
+
+header>div>span>form {
+    width: fit-content;
+    float: right;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+div>figure>img {
+    width: 100%;
+}
+
+div>figure>figcaption {
+    background-color: cornflowerblue;
+}
+
+.start {
+    color: rgb(0, 0, 224);
+}
+
+.end {
+    color: rgb(0, 120, 0);
+}
+
+div>h1 {
+    text-align: center;
+}
+
+.mainpara {
+    padding: 0px 100px 100px 100px;
+    line-height: 2;
+    text-align: justify;
+}
+
+div>div>h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div>div>h4 {
+    color: white;
+    font-weight: 600;
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+div>div>img {
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+div>div>a>img, div>div>a figure>img {
+    width: 80px;
+}
+
+.boxes {
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    align-content: center;
+    margin: 5% 3% 5% 5%;
+    display: inline-block;
+    box-shadow: 0px 0px 25px 20px rgb(223, 223, 223);
+}
+
+div>div>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    /* justify-content: flex-start; */
+}
+
+div>div>ul>li>div {
+    background-color: whitesmoke;
+    height: 70px;
+    width: 280px;
+    padding: 15px 0px 0px 10px;
+    margin: 0px 40px 0px -20px;
+    border: solid rgba(230, 230, 230, 0.63);
+    border-width: 2px;
+}
+
+div>div>ul>li>div>span>img {
+    margin-top: 10px
+}
+
+.list_box {
+    vertical-align: 8px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: medium;
+    color: rgba(32, 79, 165, 0.664);
+}
+
+.text-box {
+    /* border: solid black; */
+    width: 100%;
+    height: 350px;
+    margin-top: 70px;
+
+
+}
+.footer_list{
+    list-style: none;
+    padding-left: 170px;
+    color:rgb(175, 175, 175);
+    line-height: 2;
+}
+@media only screen and (max-width: 400px) {
+    header>div>span>img {
+        width: 200px;
+        align-self: center;
+
+    }
+}
